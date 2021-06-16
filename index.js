@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const app = express();
 app.use(bodyParser.json());
 
-app.get('/Plans/estimate', function(req, res) {
+app.get('/', function(req, res) {
     res.json(data);   
 });
 
