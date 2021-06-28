@@ -13,9 +13,9 @@ app.post('/Plans/estimate', function(req, res) {
 });
 
 var data = [{
-  name: 'Mobile update7',
-  id: '7',
-  amount: '60000'
+  name: 'Mobile update8',
+  id: '8',
+  amount: '80000'
 }];
 
 app.listen(8080, function() {
